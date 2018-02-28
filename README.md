@@ -9,12 +9,12 @@ Serial data is received on the UART connection and displayed on the LCD
 
 Also available is I2C display features.
 
-##Protocol##
+## Protocol
 
-###Monitor Mode###
+### Monitor Mode
 In monitor mode, data is displayed directly on the LCD. Special control characters are not interpreted, except LF and CR
 
-###Graphics Mode###
+### Graphics Mode
 A simple display interpreter language is used to create simple graphics.
 
 The primitives are:
