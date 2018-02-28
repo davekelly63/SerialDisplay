@@ -21,8 +21,9 @@ The primitives are:
 
 Parameters are separated by space or comma. Terminate with CR or LF
 
-Primitive | Parameters | Description
-GOTO | x, y | Move current position to x, y. origin 0, 0 is top left hand corner
-COLOR | r, g, b | Set the current color to rgb value
-SQUARE | x, y, width, [FILLED/UNFILLED] | Draw a square at position, filled in current color or outline only (default if not supplied is unfilled)
-CIRCLE | x, y, radius, [FILLED/UNFILLED] | draw a circle with centre at x, y. Default is unfilled
+| Primitive | Parameters | Description |
+| --------- | ---------- | ----------- |
+| GOTO | x, y | Move current position to x, y. origin 0, 0 is top left hand corner |
+| COLOR | r, g, b | Set the current color to rgb value |
+| SQUARE | x, y, width, [FILLED/UNFILLED] | Draw a square at position, filled in current color or outline only (default if not supplied is unfilled) |
+| CIRCLE | x, y, radius, [FILLED/UNFILLED] | draw a circle with centre at x, y. Default is unfilled |
