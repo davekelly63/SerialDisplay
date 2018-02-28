@@ -102,6 +102,8 @@ int main(void)
   MX_LTDC_Init();
   /* USER CODE BEGIN 2 */
 
+  //LCD_BriefDisplay();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -259,6 +261,30 @@ static void MX_LTDC_Init(void)
   }
 
 }
+
+static void LCD_ShowMenu(void)
+{
+
+}
+/**
+  * @brief  Display Example description.
+  * @param  None
+  * @retval None
+  */
+/*
+static void LCD_BriefDisplay(void)
+{
+  BSP_LCD_SetFont(&Font24);
+  BSP_LCD_SetTextColor(LCD_COLOR_BLUE);
+  BSP_LCD_FillRect(0, 0, 800, 112);
+  BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+  BSP_LCD_FillRect(0, 112, 800, 368);
+  BSP_LCD_SetBackColor(LCD_COLOR_BLUE);
+  BSP_LCD_DisplayStringAtLine(1, (uint8_t *)"        LCD_DSI_CmdMode_PartialRefresh");
+  BSP_LCD_SetFont(&Font16);
+  BSP_LCD_DisplayStringAtLine(4, (uint8_t *)"This example shows how to display images on LCD DSI using the partial");
+  BSP_LCD_DisplayStringAtLine(5, (uint8_t *)"Refresh method by splitting the display area.");
+}*/
 
 /* USART6 init function */
 static void MX_USART6_UART_Init(void)
