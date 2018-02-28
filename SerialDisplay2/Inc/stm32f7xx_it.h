@@ -48,6 +48,7 @@
 /* Exported functions ------------------------------------------------------- */
 
 void SysTick_Handler(void);
+void DMA2_Stream1_IRQHandler(void);
 void OTG_HS_IRQHandler(void);
 void CEC_IRQHandler(void);
 
