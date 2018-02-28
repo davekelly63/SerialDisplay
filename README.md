@@ -9,6 +9,9 @@ Serial data is received on the UART connection and displayed on the LCD
 
 Also available is I2C display features.
 
+## Logging
+As the demo board is fitted with an SD Card reader, if a SD card is available, then received data can be stored as a log.
+
 ## Protocol
 
 ### Monitor Mode
